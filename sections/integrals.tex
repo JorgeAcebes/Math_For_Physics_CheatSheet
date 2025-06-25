@@ -1,5 +1,5 @@
 \section*{Integrals%
-\normalfont\scriptsize{$(n\in\mathbb{N}_0,\alpha,\beta,\gamma,\mu,\nu,\sigma,r\in\mathbb{R},x\in\mathbb{R}\cap\mathrm{Dom}_f,a,z\in\mathbb{C},m\in\mathbb{Z})$ +C omitted.}%
+\normalfont\scriptsize{$(n\in\mathbb{N}_0,\alpha,\beta,\gamma,\mu,\nu,\sigma,r\in\mathbb{R},x\in\mathbb{R}\cap\mathrm{Dom}_f,a,z\in\mathbb{C},m\in\mathbb{Z})$ +C omitted.}\\ 
 \normalfont\scriptsize{Avoid division by 0. Most results can be extended to $\mathbb{C}$.}%
 }
 
@@ -61,14 +61,15 @@ $\int_0^{2\pi}\!\sin^nx\cos^{n'}\!x\,dx{=}0\text{ if }n,n'\text{ not both even}$
 \underline{Parity} 
 $\text{ Even}: f_e(-x) = f_e(x)\text{, sym w.r.t Y-axis}$
 $\text{ Odd}: f_o(-x) = -f_o(x)\text{, sym w.r.t (0,0)}$  
-\  
-\scriptsize{$f_e\!: \! \cos x,\; \!\cosh x,\;\! x^{2n},\;\! e^{-x^2},\;\! |x|,\;\! \delta_{ij},\;\! \delta(x), \;\!  f'_o(x), \; \! f'_e(x),\;\! f_{\!e\!/\!o}\!(x)f_{\!e\!/\!o}\!(x), \;\!\mathcal{F}\{f_e(x)\} (\xi) \in \!\mathbb{R},\!...$} \ 
-\scriptsize{$f_o\!:  \sin x,\; \sinh x,\; x^{2n+1},\; \tan x,\; \operatorname{erf}x,\; \operatorname{sign}x,\; f_e (x) f_o (x), \;\mathcal{F}\{f_o(x)\} (\xi) \in i\mathbb{R},...$}
+\
+$\int_{-\alpha}^{+\alpha}\!f_e(x)\,dx{=}2\int_{0}^{\alpha}\!f_e(x)\,dx$
+\;\;  $\int_{-\alpha}^{+\alpha}\!f_o(x)\,dx{=}0$ 
+\\
+\scriptsize{$f_e\!\!: \! \cos x,\; \!\cosh x,\;\! x^{2n},\;\! e^{-x^2}\!,\;\! |x|,\;\! \delta_{ij},\;\! \delta(x),\;\! \mathbb{R}, \;\!  f'_o(x), \; \! f'_e(x),\;\! f_{\!e\!/\!o}\!(x)f_{\!e\!/\!o}\!(x), \;\!\mathcal{F}\{f_e(x)\} (\xi),...$} \\
+\scriptsize{$f_o\!:  \sin x,\; \sinh x,\; x^{2n+1},\; \tan x,\; \operatorname{erf}x,\; \operatorname{sign}x,\; f_e (x) f_o (x), \;\mathcal{F}\{f_o(x)\} (\xi) ,...$}
 
 \underline{Fundamental Theorem of Calculus}
 $\frac{d}{dx}\int_{h(x)}^{g(x)} f(t) \, dt =  f\big(g(x)\big) \cdot g'(x) - f\big(h(x)\big) \cdot h'(x)$
-\vspace{1pt}
-
 \underline{Log/Exp} 
 $\int\!x^r\ln x\,dx{=}x^{r+1}\left(\frac{\ln x}{r+1}{-}\frac{1}{(r+1)^2}\right)$ \
 $\int\!\ln^nx\,dx{=}x\ln^n x{-}n\int\!\ln^{n-1}x\,dx$ \

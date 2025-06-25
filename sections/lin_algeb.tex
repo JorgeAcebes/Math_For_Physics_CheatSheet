@@ -31,7 +31,7 @@
  &\gamma_{\mathbf{A}}(\lambda_k)\!=\!\mu_{\mathbf{A}}(\lambda_k)\;\forall k\Leftrightarrow\exists\mathcal{B'}\!=\!\{\mathbf{v}_1,\cdots,\mathbf{v}_n\}\!\equiv\!\text{eigenbasis}\Rightarrow\exists\mathbf{P}\;|\;\mathbf{P^{-1}AP}\!=\!\mathbf{D} \\
 &\mathbf{P}\!=\!{}_{\mathcal{B'\!}}\mathbf{P}_{\mathcal{B}}\!=\!\mathbf{P}_{\mathcal{B\rightarrow B'}}\!\equiv\!\text{change of basis matrix from $\mathcal{B}$ to $\mathcal{B'}$}\;\;{}_{\mathcal{B}'}D_{\mathcal{B}'}\!=\!{}_{\mathcal{B}}A_{\mathcal{B}} \\
 &\mathbf{P}\!=\![\mathbf{v}_1\cdots\mathbf{v}_n]\;\;\mathbf{D}\!=\!\operatorname{diag}(\lambda_1,\cdots,\lambda_n)\;\;\mathbf{A\!\sim\! D}\Rightarrow|\mathbf{A}|\!=\!|\mathbf{D}|,\;\operatorname{tr}\mathbf{A}\!=\!\operatorname{tr}\mathbf{D}\end{align*}
- \underline{\text{Properties}} {\normalfont\scriptsize \ ($\theta \in \mathbb{R},\ \eta, \nu, \omega, \tau \in \mathbb{C}$)}
+ \underline{\text{Properties}} {\normalfont\scriptsize \ ($\theta \in \mathbb{R},\ \eta, \nu, \omega, \tau \in \mathbb{C}, \; \; \vec{u},\vec{v}\!\in\!\mathbb{C}^n$)}
  \begin{align*}
  &\mathbf{A}(\nu\!+\!\omega)\!=\!\nu\mathbf{A}\!+\!\omega\mathbf{A}\;\;\tau(\mathbf{A}\!+\!\mathbf{B})\!=\!\tau\mathbf{A}\!+\!\tau\mathbf{B}\;\;\mathbf{A(BC)\!=\!(AB)C} \\ &\mathbf{A(B\!+\!C)\!=\!AB\!+\!CB}\;\;\mathbf{(A\!+\!B)C\!=\!AC\!+\!BC}\;\;\mathbf{AB\!\not\equiv\! BA} \\
 &\text{Let }v,w\text{ arbitrary column vectors, $j^{th}$ column of $\mathbf{A}$ }a_j\!=\!\nu\!\cdot\!v\!+\!\omega\!\cdot\!w: \\
@@ -45,7 +45,7 @@
 &(\mathbf{A}^{\operatorname{T}})^{\operatorname{T}}\!=\!\mathbf{A}\;\;(\mathbf{A\!+\!B})^{\operatorname{T}}\!=\!\mathbf{A}^{\operatorname{T}}\!+\!\mathbf{B}^{\operatorname{T}}\;\;(\eta\mathbf{A})^{\operatorname{T}}\!=\!\eta\mathbf{A}^{\operatorname{T}}\;\;(\mathbf{AB})^{\operatorname{T}}\!=\!(\mathbf{BA})^{\operatorname{T}} \\
 &(\mathbf{A^{-1}})^{\operatorname{T}}\!=\!(\mathbf{A}^{\operatorname{T}})^{-1}\;\;\operatorname{rg}\mathbf{A}\!=\!\operatorname{rg}\mathbf{A}^{\operatorname{T}}\;\;(\mathbf{A^{-1}})^\dagger\!=\!(\mathbf{A}^\dagger)^{-1}\;\;\operatorname{rg}\mathbf{A}\!=\!\operatorname{rg}\mathbf{A}^\dagger \\
 &(\mathbf{A}^\dagger)^\dagger\!=\!\mathbf{A}\;\;(\mathbf{A\!+\!B})^\dagger\!=\!\mathbf{A}^\dagger\!+\!\mathbf{B}^\dagger\;\;(\eta\mathbf{A})^\dagger\!=\!\overline{\eta}\mathbf{A}^\dagger\;\;(\mathbf{AB})^\dagger\!=\!(\mathbf{BA})^\dagger \\
-&\vec{u},\vec{v}\!\in\!\mathbb{R}^n\!:\vec{u}\cdot\vec{v}\!=\!\mathbf{u}^{\operatorname{T}}\mathbf{v}\;\;\vec{u},\vec{v}\!\in\!\mathbb{C}^n\!:\vec{u}\cdot\vec{v}\!=\!\langle\mathbf{u}|\mathbf{v}\rangle\!=\!\mathbf{u}^\dagger\mathbf{v}\\
+&\vec{u}\cdot\vec{v}\!=\!\langle\mathbf{u},\mathbf{v}\rangle\!=\!\mathbf{u}^\dagger\mathbf{v}\; \; \; \|\mathbf{u}\|\coloneqq\sqrt{\langle \mathbf{u},\mathbf{u} \rangle}\; \;  \; |\langle  \mathbf{u}, \mathbf{v} \rangle|\leq \|\mathbf{u}\|\|\mathbf{v}\| \; \; \; \|\mathbf{u}+\mathbf{v}\|\leq\|\mathbf{u}\|+\|\mathbf{v}\|\\
 &(\mathbf{A^{-1}})^{-1}\!=\!\mathbf{A}\;\;(\mathbf{AB})^{-1}\!=\!\mathbf{B}^{-1}\mathbf{A}^{-1}\;\;(\eta\mathbf{A})^{-1}\!=\!\mathbf{A}^{-1}\!/\eta\;\;\mathbf{D}^{-1}\!=\!\operatorname{diag}(1/d_i) \\
 &[\mathbf{A},\mathbf{B}]\!=\!-[\mathbf{B},\mathbf{A}]\;\;[\mathbf{A},\mathbf{B\!+\!C}]\!=\![\mathbf{A},\mathbf{B}]\!+\![\mathbf{A},\mathbf{C}]\;\;[\mathbf{A},\mathbf{A}]\!=\!
 [\mathbf{A},\mathbf{A}^n]\!=\!0 \\
